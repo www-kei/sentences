@@ -1,0 +1,209 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css");
+hr {
+  clear: both;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+hr.gutter-l {
+  height: 6.4rem;
+}
+hr.gutter-m {
+  height: 3.2rem;
+}
+hr.gutter-s {
+  height: 1.6rem;
+}
+
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Apple SD Gothic Neo", "Noto Sans KR", "Spoqa Han Sans Neo", dotum, sans-serif;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.8);
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  background-color: #fff;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, fieldset, form, legend, p, blockquote, th, td, label, input, select, textarea, button, a {
+  margin: 0;
+  padding: 0;
+}
+
+a, h1, h2, h2, h3, h4, h5, h6, label, input, textarea, select, button, small, p, span, dl, ul, ol, th, td, address, em, i, strong {
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: 2;
+  color: inherit;
+}
+
+dl, ol, ul, li {
+  list-style: none;
+}
+
+h1, h2, h2, h3, h4, h5, h6, address, em, i, strong, th {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+fieldset {
+  border: none;
+}
+
+a:focus, button:focus, textarea:focus, input:focus, select:focus, li:focus {
+  outline: none;
+}
+
+a, button, select {
+  cursor: pointer;
+}
+
+input[type=button], input[type=submit], select {
+  border: none;
+  background: none;
+}
+
+input[type=text], input[type=password], input[type=search], input[type=number], input[type=email], input[type=tel], input[type=file], input[type=date], select, textarea {
+  -webkit-appearance: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-sizing: border-box !important;
+  vertical-align: middle !important;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
+
+table {
+  border-spacing: 0;
+}
+
+iframe {
+  border: none;
+}
+
+body {
+  margin-right: 3.2rem;
+  margin-left: 3.2rem;
+  font-size: 1.3rem;
+}
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1679px) {
+  body {
+    margin-right: 6.4rem;
+    margin-left: 6.4rem;
+  }
+}
+@media screen and (min-width: 1680px) {
+  body {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+header {
+  padding-top: 25.6rem;
+  padding-bottom: 25.6rem;
+  font-weight: 700;
+}
+
+footer {
+  padding-top: 12.8rem;
+  padding-bottom: 12.8rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.4);
+}
+
+ul {
+  padding-bottom: 6.4rem;
+}
+@media screen and (min-width: 1200px) {
+  ul {
+    padding-bottom: 12.8rem;
+  }
+}
+ul li {
+  padding-top: 6.4rem;
+  padding-bottom: 6.4rem;
+}
+@media screen and (min-width: 1200px) {
+  ul li {
+    display: flex;
+    flex-direction: row;
+    gap: 6.4rem;
+    padding-top: 12.8rem;
+    padding-bottom: 12.8rem;
+  }
+}
+@media screen and (max-width: 1199px) {
+  ul li h3 {
+    color: rgba(0, 0, 0, 0.4);
+  }
+}
+@media screen and (min-width: 1200px) {
+  ul li h3 {
+    flex-shrink: 0;
+    width: 38.2rem;
+  }
+}
+@media screen and (max-width: 1199px) {
+  ul li div {
+    margin-top: 0.8rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  ul li div {
+    flex-grow: 1;
+  }
+}
+ul li span {
+  display: block;
+  margin-top: 0.8rem;
+  color: rgba(0, 0, 0, 0.4);
+}
