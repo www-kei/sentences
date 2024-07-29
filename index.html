@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <meta name="robots" content="index, follow">
-<title>text of life</title>
+<title>books. sentences. and life</title>
 <link rel="stylesheet" href="css/style.css">
 <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -17,17 +17,17 @@
 </head>
 
 <body>
-<header>text<br>of<br>life</header>
+<header>books.<br>sentences.<br>and life</header>
 <hr class="hr gutter-xl">
 
 <script src="text.json" type="text/javascript"></script>
 <script>
     var parseData = JSON.parse(JSON.stringify(list));
-    var obj = Object.keys(parseData.books).length;
+    var obj = Object.keys(parseData.sentences).length;
     const makeItems = () => {
         let htmlStr = '';
         for(i=0; i < obj; i++){
-            htmlStr += '<li><div><h3>' + parseData.books[i].title + '</h3><span>' + parseData.books[i].author + '</span></div><div><p>' + parseData.books[i].sentence + '</p><span>' + parseData.books[i].speaker + '</span></div></li>';
+            htmlStr += '<li><div><h3>' + parseData.sentences[i].title + '</h3><span>' + parseData.sentences[i].author + '</span></div><div><p>' + parseData.sentences[i].sentence + '</p><span>' + parseData.sentences[i].speaker + '</span></div></li>';
         }
         return htmlStr;
     };
